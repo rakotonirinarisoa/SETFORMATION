@@ -1,0 +1,4 @@
+0302                     03113MAJUNGA                 000172                          0500015818780024                                               00005      
+0602              jrnl00001070TSIALIVA_THIERRY        BOA                             05000158187800240000000000000000Salaire du mois 0103                      
+0602              jrnl00001071MOUSSA_ABDOUL           BOA                             05000158187800240000000000000000Salaire du mois 0113                      
+0802                                                                                                  0000000000000000                                          

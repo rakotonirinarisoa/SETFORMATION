@@ -1,0 +1,38 @@
+0302                     18034SOFTWELLVersiondémoSOFTW000009                          0000505004011926                                               00008      
+0602              jrnl00000073CLINIC INFO             BOA                             05025186120400050000001459999000002Achat de                    00009      
+0702              jrnl00000073CLINIC INFO             BOA                             05025186120400050000000000000000 02 laptops                    00009      
+0602              jrnl00000074RAHAINGONJATOVO Nirina                                  20887           0000004500000000OP001Honora                    05001      
+0702              jrnl00000074RAHAINGONJATOVO Nirina                                  20887           0000000000000000ires Févrie                    05001      
+0602              jrnl00000075METAPLASCO              SGM                             01436           0000001000000000OP002Achat                     21010      
+0702              jrnl00000075METAPLASCO              SGM                             01436           0000000000000000de 250 pann                    21010      
+0602              jrnl00000076CLINIC INFO             BOA                             05025186120400050000001459999000002Achat de                    00009      
+0702              jrnl00000076CLINIC INFO             BOA                             05025186120400050000000000000000 02 laptops                    00009      
+0602              jrnl00000077RAHAINGONJATOVO Nirina                                  20887           0000004500000000OP001Honora                    05001      
+0702              jrnl00000077RAHAINGONJATOVO Nirina                                  20887           0000000000000000ires Févrie                    05001      
+0602              jrnl00000078METAPLASCO              SGM                             01436           0000001000000000OP002Achat                     21010      
+0702              jrnl00000078METAPLASCO              SGM                             01436           0000000000000000de 250 pann                    21010      
+0602              jrnl00000079CLINIC INFO             BOA                             05025186120400050000001459999000002Achat de                    00009      
+0702              jrnl00000079CLINIC INFO             BOA                             05025186120400050000000000000000 02 laptops                    00009      
+0602              jrnl00000080RAHAINGONJATOVO Nirina                                  20887           0000004500000000OP001Honora                    05001      
+0702              jrnl00000080RAHAINGONJATOVO Nirina                                  20887           0000000000000000ires Févrie                    05001      
+0602              jrnl00000081METAPLASCO              SGM                             01436           0000001000000000OP002Achat                     21010      
+0702              jrnl00000081METAPLASCO              SGM                             01436           0000000000000000de 250 pann                    21010      
+0602              jrnl00000082CLINIC INFO             BOA                             05025186120400050000001459999000002Achat de                    00009      
+0702              jrnl00000082CLINIC INFO             BOA                             05025186120400050000000000000000 02 laptops                    00009      
+0602              jrnl00000083RAHAINGONJATOVO Nirina                                  20887           0000004500000000OP001Honora                    05001      
+0702              jrnl00000083RAHAINGONJATOVO Nirina                                  20887           0000000000000000ires Févrie                    05001      
+0602              jrnl00000084METAPLASCO              SGM                             01436           0000001000000000OP002Achat                     21010      
+0702              jrnl00000084METAPLASCO              SGM                             01436           0000000000000000de 250 pann                    21010      
+0602              jrnl00000085CLINIC INFO             BOA                             05025186120400050000001459999000002Achat de                    00009      
+0702              jrnl00000085CLINIC INFO             BOA                             05025186120400050000000000000000 02 laptops                    00009      
+0602              jrnl00000086RAHAINGONJATOVO Nirina                                  20887           0000004500000000OP001Honora                    05001      
+0702              jrnl00000086RAHAINGONJATOVO Nirina                                  20887           0000000000000000ires Févrie                    05001      
+0602              jrnl00000087METAPLASCO              SGM                             01436           0000001000000000OP002Achat                     21010      
+0702              jrnl00000087METAPLASCO              SGM                             01436           0000000000000000de 250 pann                    21010      
+0602              jrnl00000088CLINIC INFO             BOA                             05025186120400050000001459999000002Achat de                    00009      
+0702              jrnl00000088CLINIC INFO             BOA                             05025186120400050000000000000000 02 laptops                    00009      
+0602              jrnl00000089RAHAINGONJATOVO Nirina                                  20887           0000004500000000OP001Honora                    05001      
+0702              jrnl00000089RAHAINGONJATOVO Nirina                                  20887           0000000000000000ires Févrie                    05001      
+0602              jrnl00000090METAPLASCO              SGM                             01436           0000001000000000OP002Achat                     21010      
+0702              jrnl00000090METAPLASCO              SGM                             01436           0000000000000000de 250 pann                    21010      
+0802                                                                                                  0000041759994000                                          

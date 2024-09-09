@@ -1,0 +1,226 @@
+﻿
+@{
+    ViewBag.Title = "TeacherValidation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+<div class="form-row">
+    <div class="input-group mb-3 col-sm-12 col-md-6">
+        <div class="input-group-prepend">
+            <span class="input-group-text text-bold" id="inputGroup-sizing-default">Projet</span>
+        </div>
+        <select class="form-control col combobox" id="Fproject" code-project>
+        </select>
+    </div>
+    <div class="input-group mb-3 col-sm-12 col-md-6">
+        <div class="input-group-prepend">
+            <span class="input-group-text text-bold" id="inputGroup-sizing-default">Ecriture</span>
+        </div>
+        <input type="text" class="form-control" value="" readonly code_Type />
+    </div>
+</div>
+
+<div>
+    <div class="form-row">
+        <div class="input-group mb-3 col-sm-12 col-md-6">
+            <div class="input-group-prepend">
+                <span class="input-group-text text-bold" id="inputGroup-sizing-default">Code Journal</span>
+            </div>
+            <select class="form-control col combobox" id="commercial" codej-list>
+            </select>
+            <div class="input-group-append">
+                <label class="input-group-text text-bold" id="inputGroup-sizing-default">
+                    <input type="checkbox" class="form-check" style="margin-right:5px" id="ChkDevise" /> En devise
+                </label>
+            </div>
+        </div>
+        <div class="input-group mb-3 col-sm-12 col-md-6">
+            <div class="input-group-prepend">
+                <span class="input-group-text text-bold" id="inputGroup-sizing-default">Libellé</span>
+            </div>
+            <input type="text" class="form-control" value="" readonly codej-libelle />
+        </div>
+    </div>
+    <div tab="autre">
+        <div class="form-row">
+            <div class="input-group mb-3 col-sm-12 col-md-6">
+                <div class="input-group-prepend">
+                    <span class="input-group-text text-bold" id="inputGroup-sizing-default">Période du</span>
+                </div>
+                <input type="date" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id="Pdu">
+            </div>
+            <div class="input-group mb-3 col-sm-12 col-md-6">
+                <div class="input-group-prepend">
+                    <span class="input-group-text text-bold" id="inputGroup-sizing-default">au</span>
+                </div>
+                <input type="date" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id="Pau">
+            </div>
+            <div class="input-group mb-3 col-sm-12 col-md-6">
+                <div class="input-group-prepend">
+                    <span class="input-group-text text-bold" id="inputGroup-sizing-default">Date paiement</span>
+                </div>
+                <input type="date" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id="Pay">
+            </div>
+            <div class="input-group mb-3 col-sm-12 col-md-6">
+                <div class="input-group-prepend">
+                    <span class="input-group-text text-bold" id="inputGroup-sizing-default">Compte-général</span>
+                </div>
+                <select class="form-control col combobox" id="comptaG" compG-list>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="input-group mb-3 col-sm-12 col-md-6">
+                <div class="input-group-prepend">
+                    <span class="input-group-text text-bold" id="inputGroup-sizing-default">AUXI</span>
+                </div>
+                <select class="form-control col combobox" id="auxi" AUXI-list>
+                </select>
+            </div>
+            <div class="input-group mb-3 col-sm-12 col-md-6">
+                <div class="input-group-prepend">
+                    <span class="input-group-text text-bold" id="inputGroup-sizing-default">ETAT</span>
+                </div>
+                <select class="form-control col combobox" id="etat" ETAT-list>
+                </select>
+            </div>
+            <div class="input-group mb-3 col-sm-12 col-md-6">
+                <div class="input-group-prepend">
+                    <span class="input-group-text text-bold" id="inputGroup-sizing-default">Nom</span>
+                </div>
+                <input type="text" class="form-control" value="" readonly compte-name />
+            </div>
+        </div>
+    </div>
+    <div class="form-row mb-3">
+        <div class="input-group mb-3 col">
+            <div class="mb-3 col ">
+                <div class="btn btn-flat bg-gradient-green col-12" data-action="ChargerJs">
+                    <i class="fa fa-download"></i> Générer
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="table-responsive mb-3 OPF" style="max-height:400px" tab="autre">
+    <table class="table table-hover table-striped fAFB160" id="TDB_OPA">
+        <thead style="position:sticky">
+            <tr class="thead-accueil1" style="white-space: nowrap;">
+                <td style="text-align:right">
+                    <input type="checkbox" class="Checkall" />
+                </td>
+                <td style="font-weight: bold; text-align: center; width: 5px">N°</td>
+                <td style="font-weight:bold; text-align:center">Date n°ordre</td>
+                <td style="font-weight: bold; text-align: center">N° Pièce</td>
+                <td style="font-weight: bold; text-align: center">Compte</td>
+                <td style="font-weight: bold; text-align: center">Libellé</td>
+                <td style="font-weight: bold; text-align: center">Débit</td>
+                <td style="font-weight: bold; text-align: center">Crédit</td>
+                <td style="font-weight: bold; text-align: center">Montant</td>
+                <td style="font-weight: bold; text-align: center">Montant devise</td>
+                <td style="font-weight: bold; text-align: center">Mon.</td>
+                <td style="font-weight: bold; text-align: center">Rang</td>
+                <td style="font-weight: bold; text-align: center">Financement catégorie</td>
+                <td style="font-weight: bold; text-align: center">Commune</td>
+                <td style="font-weight: bold; text-align: center">Plan6</td>
+                <td style="font-weight: bold; text-align: center">Journal</td>
+                <td style="font-weight: bold; text-align: center">Marché</td>
+                <td style="font-weight: bold; text-align: center">Liquidation</td>
+                <td style="font-weight: bold; text-align: center">Type</td>
+                @*<td style="font-weight: bold; text-align: center">Rejeter</td>*@
+            </tr>
+        </thead>
+        <tbody class="afb160"></tbody>
+        <tfoot style="opacity:50%">
+            <tr>
+                <th></th>
+                <th>N°</th>
+                <th>Date n°ordre</th>
+                <th>N° Pièce</th>
+                <th>Compte</th>
+                <th>Libellé</th>
+                <th>Débit</th>
+                <th>Montant</th>
+                <th>PCOP</th>
+                <th>Montant</th>
+                <th>Montant devise</th>
+                <th>Mon.</th>
+                <th>Rang</th>
+                <th>Financement catégorie</th>
+                <th>Commune</th>
+                <th>Plan6</th>
+                <th>Journal</th>
+                <th>Liquidation</th>
+                <th>Type</th>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+<div class="form-row">
+    <div class="input-group mb-3 col">
+        <div class="mb-3 col">
+            <div class="btn btn-flat bg-gradient-red col-12" data-action="GetElementChecked">
+                <i class="fa fa-check-double"></i> Enregistrer et envoyer pour validation
+            </div>
+        </div>
+    </div>
+    <div class="input-group mb-3 col">
+        <div class="mb-3 col ">
+            <div class="btn btn-flat bg-gradient-yellow col-12" onclick="tableToExcel('TDB_OPA', 'LISTE PAIEMENTS EN ATTENTE VALIDATION')">
+                <i class="fa fa-file-excel"></i> Exporter
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="modal fade" tabindex="-1" role="dialog" id="F-modal" data-id="">
+    <div class="modal-dialog modal-xl" role="document" @*style="width:fit-content"*@>
+        <div class="modal-content" @*style="width:fit-content"*@>
+            <div class="modal-header">
+                <h3 class="modal-title w-100">Rejet du mandat</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-row">
+                    <div class="input-group mb-3 col">
+                        <div class="input-group-prepend custom-label">
+                            <span class="input-group-text text-bold" id="inputGroup-sizing-default">Motif</span>
+                        </div>
+                        <select class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id="Motif" data-id="MOTIF-list">
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="input-group mb-3 col">
+                        <div class="input-group-prepend custom-label">
+                            <span class="input-group-text text-bold" id="inputGroup-sizing-default">Commentaire</span>
+                        </div>
+                        <textarea class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id="Commentaire"></textarea>
+                    </div>
+                </div>
+                <div class="form-row mb-3">
+                    <div class="input-group mb-3 col">
+                        <div class="btn btn-flat bg-gradient-red col-12 custom-fixed-btn" data-action="ANNULMANDAT" onclick="AcceptRefuser()">
+                            <i class="fa fa-times"></i> Rejeter le mandat
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/Assets/js/TeacherValidations.js?version=@Session["VERSION"]"></script>
+<script src="~/Assets/js/utils.js?version=@Session["VERSION"]"></script>
+
+<script src="~/Assets/admlte/plugins/select2/js/select2.js"></script>
+<script src="~/Assets/admlte/plugins/select2/js/select2.min.js"></script>

@@ -1,0 +1,6 @@
+0302                     18034SOFTWELLVersiondémoSOFTW000001                          0000774097130002                                               00005      
+0602              jrnl00000001EA TRADING              BFV SG MADAGAS                  00941           0000000052500000001ACHAT FO                    02001      
+0702              jrnl00000001EA TRADING              BFV SG MADAGAS                  00941           0000000000000000URNITURES                      02001      
+0602              jrnl00000002EA TRADING              BFV SG MADAGAS                  00941           0000000052500000001ACHAT FO                    02001      
+0702              jrnl00000002EA TRADING              BFV SG MADAGAS                  00941           0000000000000000URNITURES                      02001      
+0802                                                                                                  0000000105000000                                          

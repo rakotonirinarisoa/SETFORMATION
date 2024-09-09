@@ -1,0 +1,7 @@
+0302                     24103                        000151                                                                                                    
+0602              jrnl00000956RADO_RAKOTOARINALA      BOA                             01000236435700090000000000092647Salaire du mois 0023           00009      
+0602              jrnl00000957RAKOTOARIJAONA_FANILO_NABOA                             05005243911200060000000360000000Salaire du mois 0053           00009      
+0602              jrnl00000958RANAIVOHARIVONY_ONITSOA_BOA                             05000157683700080000000000000000Salaire du mois 0063           00009      
+0602              jrnl00000959VONLSON_ANDRIARIMANJATO_                                                0000000530500000Salaire du mois 0073                      
+0602              jrnl00000960ABOUDOU_ALY_RAMASILAHY  BOA                                             0000000130000000Salaire du mois 0203                      
+0802                                                                                                  0000001020592647                                          

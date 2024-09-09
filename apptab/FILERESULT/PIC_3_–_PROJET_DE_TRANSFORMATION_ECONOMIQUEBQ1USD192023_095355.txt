@@ -1,0 +1,24 @@
+0302                     01093PICPôlesIntégrésdeCroiss000020                          1254400010050080                                                          
+0602              jrnl00000193Direction des Grandes En                                00140213101001510000000006552000BR N°00008/                    00999      
+0702              jrnl00000193Direction des Grandes En                                00140213101001510000000000000000018% IMP/Fr                    00999      
+0602              jrnl00000194Direction des Grandes En                                00140213101001510000000039443480BR N°00010/                    00999      
+0702              jrnl00000194Direction des Grandes En                                00140213101001510000000000000000018% IMP/Lo                    00999      
+0602              jrnl00000195Direction des Grandes En                                00140213101001510000000039130435BR N°00012/                    00999      
+0702              jrnl00000195Direction des Grandes En                                00140213101001510000000000000000018% IMP/Lo                    00999      
+0602              jrnl00000196Direction des Grandes En                                00140213101001510000000006552000BR N°00008/                    00999      
+0702              jrnl00000196Direction des Grandes En                                00140213101001510000000000000000018% IMP/Fr                    00999      
+0602              jrnl00000197Direction des Grandes En                                00140213101001510000000006552000BR N°00008/                    00999      
+0702              jrnl00000197Direction des Grandes En                                00140213101001510000000000000000018% IMP/Fr                    00999      
+0602              jrnl00000198Direction des Grandes En                                00140213101001510000000006552000BR N°00008/                    00999      
+0702              jrnl00000198Direction des Grandes En                                00140213101001510000000000000000018% IMP/Fr                    00999      
+0602              jrnl00000199Direction des Grandes En                                00140213101001510000000039443480BR N°00010/                    00999      
+0702              jrnl00000199Direction des Grandes En                                00140213101001510000000000000000018% IMP/Lo                    00999      
+0602              jrnl00000200Direction des Grandes En                                00140213101001510000000039130435BR N°00012/                    00999      
+0702              jrnl00000200Direction des Grandes En                                00140213101001510000000000000000018% IMP/Lo                    00999      
+0602              jrnl00000201Direction des Grandes En                                00140213101001510000000006552000BR N°00008/                    00999      
+0702              jrnl00000201Direction des Grandes En                                00140213101001510000000000000000018% IMP/Fr                    00999      
+0602              jrnl00000202Direction des Grandes En                                00140213101001510000000039443480BR N°00010/                    00999      
+0702              jrnl00000202Direction des Grandes En                                00140213101001510000000000000000018% IMP/Lo                    00999      
+0602              jrnl00000203Direction des Grandes En                                00140213101001510000000039130435BR N°00012/                    00999      
+0702              jrnl00000203Direction des Grandes En                                00140213101001510000000000000000018% IMP/Lo                    00999      
+0802                                                                                                  0000000268481745                                          

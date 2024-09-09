@@ -1,0 +1,81 @@
+﻿@{
+    ViewBag.Title = "Suvi des délais de traitement des engagements";
+    ViewData["Controller"] = "Suvi des délais de traitement des engagements";
+}
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+<div class="form-row">
+    <div class="input-group mb-3 col">
+        <div class="input-group-prepend custom-label">
+            <span class="input-group-text text-bold" id="inputGroup-sizing-default">PROJET</span>
+        </div>
+        <select class="form-control selectTOO" aria-label="Default" aria-describedby="inputGroup-sizing-default" id="proj" data-id="proj-list" multiple="multiple">
+        </select>
+    </div>
+</div>
+
+<div class="form-row">
+    <div class="input-group mb-3 col">
+        <div class="input-group-prepend custom-label">
+            <span class="input-group-text text-bold" id="inputGroup-sizing-default">Date début</span>
+        </div>
+        <input type="date" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id="dateD">
+    </div>
+    <div class="input-group mb-3 col">
+        <div class="input-group-prepend custom-label">
+            <span class="input-group-text text-bold" id="inputGroup-sizing-default">Date fin</span>
+        </div>
+        <input type="date" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id="dateF">
+    </div>
+</div>
+
+<div class="form-row">
+    <div class="input-group mb-3 col">
+        <div class="btn btn-flat bg-gradient-success col-12" data-action="GenereLISTE">
+            <i class="fa fa-download"></i> Générer
+        </div>
+    </div>
+</div>
+
+<div class="table-responsive mb-3">
+    <table id="dashboard" class="table table-hover table-striped table-bordered" display responsive nowrap" width="100%">
+        <thead style="position:sticky">
+            <tr class="thead-accueil1" style="white-space: nowrap;">
+                <th style="font-weight: bold; text-align: center">SOA</th>
+                <th style="font-weight: bold; text-align: center">Projet</th>
+                <th style="font-weight: bold; text-align: center">Type</th>
+                <th style="font-weight: bold; text-align: center">Numéro Engagement</th>
+                <th style="font-weight: bold; text-align: center">Etape</th>
+                <th style="font-weight: bold; text-align: center">Bénéficiaire</th>
+                <th style="font-weight: bold; text-align: center">Montant</th>
+                <th style="font-weight: bold; text-align: center">Agent</th>
+                <th style="font-weight: bold; text-align: center">Date de traitement</th>
+                <th style="font-weight: bold; text-align: center">Durée de traitement</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+
+<div class="form-row">
+    <div class="input-group mb-3 col">
+        <div class="btn btn-flat bg-gradient-yellow col-12" id="export-excel-btn">
+            <i class="fa fa-file-excel"></i> Exporter
+        </div>
+    </div>
+</div>
+
+<script src="~/Assets/js/utils.js?version=@Session["VERSION"]"></script>
+<script src="~/Assets/js/delaisTraitementEngagements.js?version=@Session["VERSION"]"></script>
+
+<script src="~/Assets/admlte/plugins/select2/js/select2.js"></script>
+<script src="~/Assets/admlte/plugins/select2/js/select2.min.js"></script>
+
+<script>
+    $("#proj").select2({
+        tags: true,
+        tokenSeparators: [',', ' ']
+    })
+</script>

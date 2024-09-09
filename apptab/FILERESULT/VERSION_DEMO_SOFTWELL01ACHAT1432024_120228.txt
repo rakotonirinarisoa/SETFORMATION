@@ -1,0 +1,6 @@
+0302                     14034SOFTWELLVersiondémoSOFTW000005                          0000505074000775                                               00008      
+0602              jrnl00000001 CFAO MOTORS            SOCIETE GENERA                  01436           0000000200000000AV0005AV000                    21010      
+0702              jrnl00000001 CFAO MOTORS            SOCIETE GENERA                  01436           00000000000000005                              21010      
+0602              jrnl00000002 CFAO MOTORS            SOCIETE GENERA                  01436           0000000500000000OP LIQ0005V                    21010      
+0702              jrnl00000002 CFAO MOTORS            SOCIETE GENERA                  01436           0000000000000000EHICULES                       21010      
+0802                                                                                                  0000000700000000                                          

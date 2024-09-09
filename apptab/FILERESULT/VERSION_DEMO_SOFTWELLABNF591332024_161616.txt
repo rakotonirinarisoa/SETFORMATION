@@ -1,0 +1,6 @@
+0302                     13034SOFTWELLVersiondémoSOFTW000036                               24171790031                                                          
+0602              jrnl00000033AEQUO.MG SARL                                           68000           0000000015000000OPTESTPaiem                    22227      
+0702              jrnl00000033AEQUO.MG SARL                                           68000           0000000000000000ent Eau et                     22227      
+0602              jrnl00000034AEQUO.MG SARL                                           68000           0000000015000000OPTESTPaiem                    22227      
+0702              jrnl00000034AEQUO.MG SARL                                           68000           0000000000000000ent Eau et                     22227      
+0802                                                                                                  0000000030000000                                          

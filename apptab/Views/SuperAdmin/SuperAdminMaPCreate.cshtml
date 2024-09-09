@@ -1,0 +1,97 @@
+﻿
+@{
+    ViewBag.Title = "Nouvelle mappage";
+    ViewData["Controller"] = "Nouvelle Mappage des PROJETS";
+    /*Layout = "~/Views/Shared/_Layout.cshtml";*/
+}
+
+<div class="form-row">
+    <div class="input-group mb-3 col">
+        <div class="input-group-prepend custom-label">
+            <span class="input-group-text text-bold" id="inputGroup-sizing-default">PROJET</span>
+        </div>
+        <select class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id="IDProjet" data-id="societe-list">
+        </select>
+    </div>
+</div>
+<div class="form-row">
+    <div class="input-group mb-3 col">
+        <div class="input-group-prepend custom-label">
+            <span class="input-group-text text-bold" id="inputGroup-sizing-default">Instance</span>
+        </div>
+        <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id="Instance">
+    </div>
+</div>
+<div class="form-row">
+    <div class="input-group mb-3 col">
+        <div class="input-group-prepend custom-label">
+            <span class="input-group-text text-bold" id="inputGroup-sizing-default">Authentification</span>
+        </div>
+        <select class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id="Auth" data-id="auth-list">
+            <option value="0">Authentification Windows</option>
+            <option value="1">Authentification SQL Server</option>
+        </select>
+    </div>
+</div>
+<div class="form-row">
+    <div class="input-group mb-3 col">
+        <div class="input-group-prepend custom-label">
+            <span class="input-group-text text-bold" id="inputGroup-sizing-default">Connexion</span>
+        </div>
+        <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id="Connex" disabled>
+    </div>
+</div>
+<div class="form-row">
+    <div class="input-group mb-3 col">
+        <div class="input-group-prepend custom-label">
+            <span class="input-group-text text-bold" id="inputGroup-sizing-default">Mot de passe</span>
+        </div>
+        <input type="password" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id="MDP" disabled>
+        <i class="far fa-eye fa-lg" id="togglePassword" style="margin: 10px; cursor: pointer;"></i>
+    </div>
+</div>
+<div class="form-row">
+    <div class="mb-3 col">
+        <div class="btn btn-flat bg-gradient-blue col-12" data-id="connex">
+            <i class="fa fa-sign-in-alt"></i> Connexion
+        </div>
+    </div>
+</div>
+<div id="base-container">
+    <div class="form-row">
+        <div class="input-group mb-3 col">
+            <div class="input-group-prepend custom-label">
+                <span class="input-group-text text-bold" id="inputGroup-sizing-default">Base de données</span>
+            </div>
+            <select class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id="DataBase" data-id="base-list">
+                <option value="value"></option>
+            </select>
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="mb-3 col">
+            <div class="btn btn-flat bg-gradient-olive col-12" data-action="AddnewUser">
+                <i class="fa fa-save"></i> Enregistrer
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/Assets/js/MappagUser.js?version=@Session["VERSION"]" ></script>
+
+<script>
+    const togglePassword = document
+        .querySelector('#togglePassword');
+    const password = document.querySelector('#MDP');
+    togglePassword.addEventListener('click', () => {
+        // Toggle the type attribute using
+        // getAttribure() method
+        const type = password
+            .getAttribute('type') === 'password' ?
+            'text' : 'password';
+        password.setAttribute('type', type);
+        // Toggle the eye and bi-eye icon
+        this.classList.toggle('bi-eye');
+    });
+</script>

@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "Crypto Historique";
+    ViewData["Controller"] = "Historique de changement du mot de passe du fichier";
+}
+
+
+<div class="d-flex flex-wrap justify-content-between">
+    <div class="btn bg-gradient-olive mb-3 btn-flat">
+        <a href="../Crypto/CryptoCreate" style="color:#FFFF">
+            <i class="fa fa-edit"></i> Modifier le mot de passe
+        </a>
+    </div>
+
+    <div class="input-group mb-3 col-sm-5">
+        <div class="input-group-prepend custom-label">
+            <span class="input-group-text text-bold" id="basic-addon3"><i class="fa fa-search"></i></span>
+        </div>
+        <input type="text" class="form-control col" id="ticket" placeholder="Rechercher...">
+    </div>
+</div>
+
+<div class="table-responsive">
+    <table class="table table-hover table-striped">
+        <thead class="thead-green">
+            <tr>
+                <th>Date de modification</th>
+                <th>Mot de passe</th>
+                <th>Utilisateur</th>
+            </tr>
+        </thead>
+        <tbody data-id="ubody"></tbody>
+    </table>
+</div>
+
+<!-- USer.js -->
+<script src="~/Assets/js/Crypto.js?version=@Session["VERSION"]"></script>

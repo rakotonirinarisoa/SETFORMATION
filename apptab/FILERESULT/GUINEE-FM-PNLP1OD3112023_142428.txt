@@ -1,0 +1,9 @@
+0302                     03113                        000181                          0500015818780024                                               00009      
+0602              jrnl00001094RAJAONARISON_MICHEL_    BNI                             05000158187800240000000009200000Salaire du mois 0018           00009      
+0602              jrnl00001095RADO_RAKOTOARINALA      BOA                             05000158187800240000000000092647Salaire du mois 0028           00009      
+0602              jrnl00001096RAKOTOARIJAONA_FANILO_NABOA                             05000158187800240000000360000000Salaire du mois 0058           00009      
+0602              jrnl00001097VONLSON_ANDRIARIMANJATO_BOA                             05000158187800240000000530500000Salaire du mois 0078           00009      
+0602              jrnl00001098RAZAFY_SOAFARA_IRENE    BOA                             05000158187800240000000550000000Salaire du mois 0128           00009      
+0602              jrnl00001099ABOUDOU_ALY_RAMASILAHY  BOA                             05000158187800240000000130000000Salaire du mois 0208           00009      
+0602              jrnl00001100GISLAIN                 BOA                             05000158187800240000000030000000Salaire du mois 0248           00009      
+0802                                                                                                  0000001609792647                                          

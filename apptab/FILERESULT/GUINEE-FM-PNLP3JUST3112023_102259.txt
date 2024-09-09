@@ -1,0 +1,7 @@
+0302                     03113                        000175                          0500015818780024                                               00009      
+0602              jrnl00001074MOUSSA_ABDOUL           BOA                             05000158187800240000000000000000Salaire du mois 0118           00009      
+0602              jrnl00001075TSIALIVA_THIERRY        BOA                             05000158187800240000000000000000Salaire du mois 0108           00009      
+0602              jrnl00001076TSIALIVA_THIERRY        BOA                             05000158187800240000000000000000Salaire du mois 0108           00009      
+0602              jrnl00001077TSIALIVA_THIERRY        BOA                             05000158187800240000000000000000Salaire du mois 0108           00009      
+0602              jrnl00001078MOUSSA_ABDOUL           BOA                             05000158187800240000000000000000Salaire du mois 0118           00009      
+0802                                                                                                  0000000000000000                                          

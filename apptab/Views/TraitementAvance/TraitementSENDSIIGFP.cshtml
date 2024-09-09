@@ -1,0 +1,193 @@
+﻿@{
+    ViewBag.Title = "Transfert SIIGFP";
+    ViewData["Controller"] = "Transfert SIIGFP";
+}
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+<div class="form-row">
+    <div class="input-group mb-3 col">
+        <div class="input-group-prepend custom-label">
+            <span class="input-group-text text-bold" id="inputGroup-sizing-default">PROJET</span>
+        </div>
+        <select class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id="proj" data-id="proj-list">
+        </select>
+    </div>
+</div>
+
+<div class="form-row">
+    <div class="input-group mb-3 col">
+        <div class="input-group-prepend custom-label">
+            <span class="input-group-text text-bold" id="inputGroup-sizing-default">Date début</span>
+        </div>
+        <input type="date" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id="dateD">
+    </div>
+    <div class="input-group mb-3 col">
+        <div class="input-group-prepend custom-label">
+            <span class="input-group-text text-bold" id="inputGroup-sizing-default">Date fin</span>
+        </div>
+        <input type="date" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id="dateF">
+    </div>
+</div>
+
+<div class="form-row">
+    <div class="input-group mb-3 col">
+        <div class="btn btn-flat bg-gradient-success col-12" data-action="GenereSIIG">
+            <i class="fa fa-download"></i> Générer
+        </div>
+    </div>
+</div>
+
+<div class="table-responsive mb-3" @*style=" max-height: calc(600px - 0.6rem * 2  );"*@ tab="ordsec">
+    <table class="table table-hover table-striped table-bordered" display responsive nowrap" width="100%" id="TBD_PROJET_ORDSEC">
+        <thead style="position:sticky">
+            <tr class="thead-accueil1" style="white-space: nowrap;">
+                <td style="text-align:center">
+                    <input type="checkbox" class="Checkall" />
+                </td>
+                <td style="font-weight:bold; text-align:center">SOA</td>
+                <td style="font-weight:bold; text-align:center">Projet</td>
+                <td style="font-weight:bold; text-align:center">Référence avance</td>
+                <td style="font-weight: bold; text-align: center">Objet</td>
+                <td style="font-weight: bold; text-align: center">Titulaire</td>
+                <td style="font-weight: bold; text-align: center">Date avance</td>
+                <td style="font-weight: bold; text-align: center">Compte bénéficiaire</td>
+                <td style="font-weight: bold; text-align: center">PCOP</td>
+                <td style="font-weight: bold; text-align: center">Montant</td>
+                <td style="font-weight: bold; text-align: center">Date DEF</td>
+                <td style="font-weight: bold; text-align: center">Date TEF</td>
+                <td style="font-weight: bold; text-align: center">Date BE</td>
+                <td style="font-weight: bold; text-align: center">Utilisateur validateur</td>
+                <td style="font-weight: bold; text-align: center">Date validation</td>
+                <td style="font-weight: bold; text-align: center">Imputation</td>
+                <td style="font-weight: bold; text-align: center">Pièce justificative</td>
+                <td style="font-weight: bold; text-align: center">Document</td>
+                @*<td style="font-weight: bold; text-align: center">Rejeter</td>*@
+            </tr>
+        </thead>
+        <tbody class="traitementORDSEC"></tbody>
+        <tfoot style="opacity:50%">
+            <tr>
+                <th></th>
+                <th>SOA</th>
+                <th>Projet</th>
+                <th>Référence avance</th>
+                <th>Objet</th>
+                <th>Titulaire</th>
+                <th>Date avance</th>
+                <th>Compte bénéficiaire</th>
+                <th>PCOP</th>
+                <th>Montant</th>
+                <th>Date DEF</th>
+                <th>Date TEF</th>
+                <th>Date BE</th>
+                <th>Utilisateur validateur</th>
+                <th>Date validation</th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+
+<div class="form-row">
+    <div class="input-group mb-3 col">
+        <div class="btn btn-flat bg-gradient-red col-12 custom-fixed-btn" data-action="SaveSIIG">
+            <i class="fa fa-check-double"></i> Enregistrer et envoyer SIIGFP
+        </div>
+    </div>
+    <div class="input-group mb-3 col">
+        <div class="btn btn-flat bg-gradient-yellow col-12" onclick="tableToExcel('TBD_PROJET_ORDSEC', 'AVANCES A ENVOYER SIIGFP')">
+            <i class="fa fa-file-excel"></i> Exporter
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" tabindex="-1" role="dialog" id="password-modal">
+    <div class="modal-dialog modal-xl" role="document" @*style="width:fit-content"*@>
+        <div class="modal-content" @*style="width:fit-content"*@>
+            <div class="modal-header">
+                <h3 class="modal-title w-100">Liste des pièces justificatives</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <table class="table table-hover table-striped table-bordered" id="TBDMODAL">
+                    <thead style="position:sticky">
+                        <tr class="thead-green" style="white-space: nowrap;">
+                            <td style="font-weight:bold; text-align:center">Type</td>
+                            <td style="font-weight: bold; text-align: center">Numéro</td>
+                            <td style="font-weight: bold; text-align: center">Nombre exemplaire</td>
+                            <td style="font-weight: bold; text-align: center">Date</td>
+                            <td style="font-weight: bold; text-align: center">Montant</td>
+                            <td style="font-weight: bold; text-align: center">Lien</td>
+                        </tr>
+                    </thead>
+                    <tbody class="pjMODAL"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" tabindex="-1" role="dialog" id="imputation-modal">
+    <div class="modal-dialog modal-xl" role="document" @*style="width:fit-content"*@>
+        <div class="modal-content" @*style="width:fit-content"*@>
+            <div class="modal-header">
+                <h3 class="modal-title w-100">Liste des imputations</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <table class="table table-hover table-striped table-bordered" id="LIQUIMODAL">
+                    <thead style="position:sticky">
+                        <tr class="thead-red" style="white-space: nowrap;">
+                            <td style="font-weight:bold; text-align:center">Libellé</td>
+                            <td style="font-weight: bold; text-align: center">Compte</td>
+                            <td style="font-weight: bold; text-align: center">PCOP</td>
+                            <td style="font-weight: bold; text-align: center">Montant</td>
+                        </tr>
+                    </thead>
+                    <tbody class="LIQUIMODAL"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" tabindex="-1" role="dialog" id="document-modal">
+    <div class="modal-dialog modal-xl" role="document" @*style="width:fit-content"*@>
+        <div class="modal-content" @*style="width:fit-content"*@>
+            <div class="modal-header">
+                <h3 class="modal-title w-100">Liste des documents (LIAS)</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <table class="table table-hover table-striped table-bordered" id="DOCMODAL">
+                    <thead style="position:sticky">
+                        <tr class="thead-bleu" style="white-space: nowrap;">
+                            <td style="font-weight:bold; text-align:center" width="30%">Type document</td>
+                            <td style="font-weight: bold; text-align: center" width="30%">Lien</td>
+                        </tr>
+                    </thead>
+                    <tbody class="DOCMODAL"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/Assets/js/TraitementENVOISIIGFA.js?version=@Session["VERSION"]"></script>
+<script src="~/Assets/js/utils.js?version=@Session["VERSION"]"></script>
+<script src="~/Assets/js/TraitmandatDOCA.js?version=@Session["VERSION"]"></script>
+<script src="~/Assets/js/TraitmandatLIASA.js?version=@Session["VERSION"]"></script>
+<script src="~/Assets/js/TraitmandatModalA.js?version=@Session["VERSION"]"></script>
+
+<script src="~/Assets/admlte/plugins/select2/js/select2.js"></script>
+<script src="~/Assets/admlte/plugins/select2/js/select2.min.js"></script>

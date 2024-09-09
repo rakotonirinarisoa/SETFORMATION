@@ -1,0 +1,13 @@
+0302                     03113MAJUNGA                 000180                          0500015818780024                                               00009      
+0602              jrnl00001083RAJAONARISON_MICHEL_    BNI                             05000158187800240000000009200000Salaire du mois 0018           00009      
+0602              jrnl00001084RADO_RAKOTOARINALA      BOA                             05000158187800240000000000092647Salaire du mois 0028           00009      
+0602              jrnl00001085RAKOTOARIJAONA_FANILO_NABOA                             05000158187800240000000360000000Salaire du mois 0058           00009      
+0602              jrnl00001086VONLSON_ANDRIARIMANJATO_BOA                             05000158187800240000000530500000Salaire du mois 0078           00009      
+0602              jrnl00001087RAZAFY_SOAFARA_IRENE    BOA                             05000158187800240000000550000000Salaire du mois 0128           00009      
+0602              jrnl00001088ABOUDOU_ALY_RAMASILAHY  BOA                             05000158187800240000000130000000Salaire du mois 0208           00009      
+0602              jrnl00001089GISLAIN                 BOA                             05000158187800240000000030000000Salaire du mois 0248           00009      
+0602              jrnl00001090MYRINA_WAED_SOAVOLA                                                     0000000175000000Salaire du mois 0338                      
+0602              jrnl00001091MYRINA_WAED_SOAVOLA                                                     0000000175000000Salaire du mois 0338                      
+0602              jrnl00001092MYRINA_WAED_SOAVOLA                                                     0000000175000000Salaire du mois 0338                      
+0602              jrnl00001093MAHAZAKA_IRENE_EVY_FLOREBNI                             05000158187800240000000188000000Salaire du mois 0958           00009      
+0802                                                                                                  0000002322792647                                          

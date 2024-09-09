@@ -1,0 +1,4 @@
+0302                     20024SOFTWELLVersiondémoSOFTW000001                          0005 05003013776                                               00008      
+0602              BQ2 00000001TELMA MOBILE SA         BNI ZENITH ANK                  00007140682101000000000015000000Abonnement                     00005      
+0702              BQ2 00000001TELMA MOBILE SA         BNI ZENITH ANK                  00007140682101000000000000000000Internet                       00005      
+0802                                                                                                  0000000015000000                                          

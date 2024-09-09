@@ -1,0 +1,31 @@
+0302                     30103Antsakaviro             000164                          0500015818780024                                               00009      
+0602              jrnl00001032MOUSSA_ABDOUL           BOA                             05000158187800240000000000000000Salaire du mois 0113           00009      
+0602              jrnl00001033MOUSSA_ABDOUL           BOA                             05000158187800240000000000000000Salaire du mois 0113           00009      
+0602              jrnl00001034MOUSSA_ABDOUL           BOA                             05000158187800240000000000000000Salaire du mois 0113           00009      
+0602              jrnl00001035MOUSSA_ABDOUL           BOA                             05000158187800240000000000000000Salaire du mois 0113           00009      
+0602              jrnl00001036TSIALIVA_THIERRY        BOA                             05000158187800240000000000000000Salaire du mois 0103           00009      
+0602              jrnl00001037MOUSSA_ABDOUL           BOA                             05000158187800240000000000000000Salaire du mois 0113           00009      
+0602              jrnl00001038MOUSSA_ABDOUL           BOA                             05000158187800240000000000000000Salaire du mois 0113           00009      
+0602              jrnl00001039TSIALIVA_THIERRY        BOA                             05000158187800240000000000000000Salaire du mois 0103           00009      
+0602              jrnl00001040TSIALIVA_THIERRY        BOA                             05000158187800240000000000000000Salaire du mois 0103           00009      
+0602              jrnl00001041MOUSSA_ABDOUL           BOA                             05000158187800240000000000000000Salaire du mois 0113           00009      
+0602              jrnl00001042MOUSSA_ABDOUL           BOA                             05000158187800240000000000000000Salaire du mois 0113           00009      
+0602              jrnl00001043TSIALIVA_THIERRY        BOA                             05000158187800240000000000000000Salaire du mois 0103           00009      
+0602              jrnl00001044TSIALIVA_THIERRY        BOA                             05000158187800240000000000000000Salaire du mois 0103           00009      
+0602              jrnl00001045TSIALIVA_THIERRY        BOA                             05000158187800240000000000000000Salaire du mois 0103           00009      
+0602              jrnl00001046MOUSSA_ABDOUL           BOA                             05000158187800240000000000000000Salaire du mois 0113           00009      
+0602              jrnl00001047MOUSSA_ABDOUL           BOA                             05000158187800240000000000000000Salaire du mois 0113           00009      
+0602              jrnl00001048TSIALIVA_THIERRY        BOA                             05000158187800240000000000000000Salaire du mois 0103           00009      
+0602              jrnl00001049TSIALIVA_THIERRY        BOA                             05000158187800240000000000000000Salaire du mois 0103           00009      
+0602              jrnl00001050TSIALIVA_THIERRY        BOA                             05000158187800240000000000000000Salaire du mois 0103           00009      
+0602              jrnl00001051TSIALIVA_THIERRY        BOA                             05000158187800240000000000000000Salaire du mois 0103           00009      
+0602              jrnl00001052MOUSSA_ABDOUL           BOA                             05000158187800240000000000000000Salaire du mois 0113           00009      
+0602              jrnl00001053MOUSSA_ABDOUL           BOA                             05000158187800240000000000000000Salaire du mois 0113           00009      
+0602              jrnl00001054TSIALIVA_THIERRY        BOA                             05000158187800240000000000000000Salaire du mois 0103           00009      
+0602              jrnl00001055TSIALIVA_THIERRY        BOA                             05000158187800240000000000000000Salaire du mois 0103           00009      
+0602              jrnl00001056TSIALIVA_THIERRY        BOA                             05000158187800240000000000000000Salaire du mois 0103           00009      
+0602              jrnl00001057TSIALIVA_THIERRY        BOA                             05000158187800240000000000000000Salaire du mois 0103           00009      
+0602              jrnl00001058MOUSSA_ABDOUL           BOA                             05000158187800240000000000000000Salaire du mois 0113           00009      
+0602              jrnl00001059MOUSSA_ABDOUL           BOA                             05000158187800240000000000000000Salaire du mois 0113           00009      
+0602              jrnl00001060MOUSSA_ABDOUL           BOA                             05000158187800240000000000000000Salaire du mois 0113           00009      
+0802                                                                                                  0000000000000000                                          

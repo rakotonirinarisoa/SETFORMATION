@@ -1,0 +1,326 @@
+﻿
+@{
+    ViewBag.Title = "FValidation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+<div class="form-row">
+    <div class="input-group mb-3 col-sm-12 col-md-6">
+        <div class="input-group-prepend">
+            <span class="input-group-text text-bold" id="inputGroup-sizing-default">Projet</span>
+        </div>
+        <select class="form-control col combobox" id="Fproject" code-project>
+        </select>
+    </div>
+    <div class="input-group mb-3 col-sm-12 col-md-6">
+        <div class="input-group-prepend">
+            <span class="input-group-text text-bold" id="inputGroup-sizing-default">Ecriture</span>
+        </div>
+        <input type="text" class="form-control" value="" readonly code_Type />
+    </div>
+</div>
+
+<div>
+    <div class="form-row">
+        <div class="input-group mb-3 col-sm-12 col-md-6">
+            <div class="input-group-prepend">
+                <span class="input-group-text text-bold" id="inputGroup-sizing-default">Code Journal</span>
+            </div>
+            <select class="form-control col combobox" id="commercial" codej-list>
+            </select>
+            <div class="input-group-append">
+                <label class="input-group-text text-bold" id="inputGroup-sizing-default">
+                    <input type="checkbox" class="form-check" style="margin-right:5px" id="ChkDevise" /> En devise
+                </label>
+            </div>
+        </div>
+        <div class="input-group mb-3 col-sm-12 col-md-6">
+            <div class="input-group-prepend">
+                <span class="input-group-text text-bold" id="inputGroup-sizing-default">Libellé</span>
+            </div>
+            <input type="text" class="form-control" value="" readonly codej-libelle />
+        </div>
+    </div>
+    <div tab="autre">
+        <div class="form-row">
+            <div class="input-group mb-3 col-sm-12 col-md-6">
+                <div class="input-group-prepend">
+                    <span class="input-group-text text-bold" id="inputGroup-sizing-default">Période du</span>
+                </div>
+                <input type="date" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id="Pdu">
+            </div>
+            <div class="input-group mb-3 col-sm-12 col-md-6">
+                <div class="input-group-prepend">
+                    <span class="input-group-text text-bold" id="inputGroup-sizing-default">au</span>
+                </div>
+                <input type="date" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id="Pau">
+            </div>
+            <div class="input-group mb-3 col-sm-12 col-md-6">
+                <div class="input-group-prepend">
+                    <span class="input-group-text text-bold" id="inputGroup-sizing-default">Date paiement</span>
+                </div>
+                <input type="date" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id="Pay">
+            </div>
+            <div class="input-group mb-3 col-sm-12 col-md-6">
+                <div class="input-group-prepend">
+                    <span class="input-group-text text-bold" id="inputGroup-sizing-default">Compte-général</span>
+                </div>
+                <select class="form-control col combobox" id="comptaG" compG-list>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="input-group mb-3 col-sm-12 col-md-6">
+                <div class="input-group-prepend">
+                    <span class="input-group-text text-bold" id="inputGroup-sizing-default">AUXI</span>
+                </div>
+                <select class="form-control col combobox" id="auxi" AUXI-list>
+                </select>
+            </div>
+            <div class="input-group mb-3 col-sm-12 col-md-6">
+                <div class="input-group-prepend">
+                    <span class="input-group-text text-bold" id="inputGroup-sizing-default">ETAT</span>
+                </div>
+                <select class="form-control col combobox" id="etat" ETAT-list>
+                </select>
+            </div>
+            <div class="input-group mb-3 col-sm-12 col-md-6">
+                <div class="input-group-prepend">
+                    <span class="input-group-text text-bold" id="inputGroup-sizing-default">Nom</span>
+                </div>
+                <input type="text" class="form-control" value="" readonly compte-name />
+            </div>
+        </div>
+    </div>
+    <div class="form-row mb-3">
+        <div class="input-group mb-3 col">
+            <div class="mb-3 col ">
+                <div class="btn btn-flat bg-gradient-green col-12" data-action="ChargerJs">
+                    <i class="fa fa-download"></i> Générer
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <div class="nav-link active" data-type="switch_tab" data-target="tfacture">Factures sélectionnées</div>
+    </li>
+    <li class="nav-item">
+        <div class="nav-link" data-type="switch_tab" data-target="tdetail">Détail de la ligne</div>
+    </li>
+    <li class="nav-item">
+        <div class="nav-link" data-type="switch_tab" data-target="tordre">Donneur d'ordre</div>
+    </li>
+    <li class="nav-item">
+        <div class="nav-link" data-type="switch_tab" data-target="tanomalie" data-action="GetAnomalieListes">Anomalie</div>
+    </li>
+</ul>
+<div id="tfacture" data-type="tab">
+    <div class="table-responsive mb-3 OPF" style="max-height:400px" tab="autre">
+        <table class="table table-hover table-striped" id="TDB">
+            <thead style="position:sticky">
+                <tr class="thead-accueil1" style="white-space: nowrap;">
+                    <td style="font-weight: bold; text-align:center" width="5px">N°</td>
+                    <td style="font-weight:bold; text-align:center">Date n°ordre</td>
+                    <td style="font-weight: bold; text-align: center">N° Pièce</td>
+                    <td style="font-weight: bold; text-align: center">Compte</td>
+                    <td style="font-weight: bold; text-align: center">Libellé</td>
+                    <td style="font-weight: bold; text-align: center">Débit</td>
+                    <td style="font-weight: bold; text-align: center">Crédit</td>
+                    <td style="font-weight: bold; text-align: center">Montant</td>
+                    <td style="font-weight: bold; text-align: center">Montant devise</td>
+                    <td style="font-weight: bold; text-align: center">Mon.</td>
+                    <td style="font-weight: bold; text-align: center">Rang</td>
+                    <td style="font-weight: bold; text-align: center">Financement catégorie</td>
+                    <td style="font-weight: bold; text-align: center">Commune</td>
+                    <td style="font-weight: bold; text-align: center">Plan6</td>
+                    <td style="font-weight: bold; text-align: center">Journal</td>
+                    <td style="font-weight: bold; text-align: center">Marché</td>
+                </tr>
+            </thead>
+            <tbody></tbody>
+            <tfoot style="opacity:50%">
+                <tr>
+                    <th>N°</th>
+                    <th>Date n°ordre</th>
+                    <th>N° Pièce</th>
+                    <th>Compte</th>
+                    <th>Libellé</th>
+                    <th>Débit</th>
+                    <th>Crédit</th>
+                    <th>Montant</th>
+                    <th>Montant devise</th>
+                    <th>Mon.</th>
+                    <th>Rang</th>
+                    <th>Financement catégorie</th>
+                    <th>Commune</th>
+                    <th>Plan6</th>
+                    <th>Journal</th>
+                    <th>Marché</th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    @*<div class="form-row">
+        <div class="input-group mb-3 col-sm-12 col-md-6">
+            <div class="input-group-prepend">
+                <span class="input-group-text text-bold" id="inputGroup-sizing-default">Nombre de ligne</span>
+            </div>
+            <input type="text" class="form-control" value="0" disabled />
+        </div>
+        <div class="input-group mb-3 col-sm-12 col-md-6">
+            <div class="input-group-prepend">
+                <span class="input-group-text text-bold" id="inputGroup-sizing-default">Montant Total</span>
+            </div>
+            <input type="text" class="form-control" value="0" disabled />
+        </div>
+    </div>*@
+
+    <div class="form-row mb-3">
+        <div class="input-group mb-3 col-md-12">
+        </div>
+        <div class="mb-3 col col-sm-12 col-md-2">
+            <div class="btn btn-flat bg-gradient-green col-12" data-action="CreateTxt">
+                <i class="fa fa-download"></i> Créer fichier AFB
+            </div>
+        </div>
+        <div class="mb-3 col col-sm-12 col-md-2">
+            <div class="btn btn-flat bg-gradient-success col-12" data-action="CreateTxtCrypter">
+                <i class="fa fa-file-archive"></i> Créer fichier AFB crypter
+            </div>
+        </div>
+        <div class="mb-3 col col-sm-12 col-md-2">
+            <div class="btn btn-flat bg-gradient-primary col-12" data-action="CreateTxtSend">
+                <i class="fa fa-paper-plane"></i> Envoyer FTP fichier AFB
+            </div>
+        </div>
+        <div class="mb-3 col col-sm-12 col-md-2">
+            <div class="btn btn-flat bg-gradient-primary col-12" data-action="CreateTxtFTPCrypter">
+                <i class="fa fa-paper-plane"></i> Envoyer FTP AFB crypter
+            </div>
+        </div>
+        <div class="mb-3 col col-sm-12 col-md-4">
+            <div class="btn btn-flat bg-gradient-yellow col-12" onclick="tableToExcel('TDB', 'PAIEMENTS VALIDER')">
+                <i class="fa fa-file-excel"></i> Exporter
+            </div>
+        </div>
+
+        @*<div class="mb-3 col col-sm-12 col-md-2">
+                <div class="btn btn-flat bg-gradient-red col-12">
+                    <i class="fa fa-times"></i> Effacer
+                </div>
+            </div>*@
+    </div>
+</div>
+
+<div id="tdetail" data-type="tab" style="display:none">
+    <div class="form-row">
+        <div class="input-group mb-3 col-sm-12 col-md-6">
+            <div class="input-group-prepend">
+                <span class="input-group-text text-bold" id="inputGroup-sizing-default">Bénéficiaire</span>
+            </div>
+            <input type="text" class="form-control" value="0" disabled />
+        </div>
+        <div class="input-group mb-3 col-sm-12 col-md-6">
+            <div class="input-group-prepend">
+                <span class="input-group-text text-bold" id="inputGroup-sizing-default">Montant</span>
+            </div>
+            <input type="text" class="form-control" value="0" disabled />
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="input-group mb-3 col-sm-12 col-md-6">
+            <div class="input-group-prepend">
+                <span class="input-group-text text-bold" id="inputGroup-sizing-default">Banque</span>
+            </div>
+            <input type="text" class="form-control" value="0" disabled />
+        </div>
+        <div class="input-group mb-3 col-sm-12 col-md-6">
+            <div class="input-group-prepend">
+                <span class="input-group-text text-bold" id="inputGroup-sizing-default">RIB</span>
+            </div>
+            <input type="text" class="form-control" value="0" disabled />
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="input-group mb-3 col-sm-12 col-md-6">
+            <div class="input-group-prepend">
+                <span class="input-group-text text-bold" id="inputGroup-sizing-default">Libellé</span>
+            </div>
+            <input type="text" class="form-control" value="" disabled />
+        </div>
+    </div>
+</div>
+
+<div id="tordre" data-type="tab" style="display:none">
+    <div class="form-row">
+        <div class="input-group mb-3 col-sm-12 col-md-6">
+            <div class="input-group-prepend">
+                <span class="input-group-text text-bold" id="inputGroup-sizing-default">Donneur d'ordre</span>
+            </div>
+            <input type="text" class="form-control" value="" disabled />
+        </div>
+        <div class="input-group mb-3 col-sm-12 col-md-6">
+            <div class="input-group-prepend">
+                <span class="input-group-text text-bold" id="inputGroup-sizing-default">RIB</span>
+            </div>
+            <input type="text" class="form-control" value="" disabled />
+        </div>
+    </div>
+</div>
+
+<div id="tanomalie" data-type="tab" style="display:none">
+    <div class="table-responsive mb-3" style="max-height:400px" tab="autre">
+        <table class="table table-hover table-striped" id="TDB_ANO">
+            <thead style="position:sticky">
+                <tr class="thead-accueil1" style="white-space: nowrap;">
+                    <td style="text-align:right">
+                        <input type="checkbox" />
+                    </td>
+                    <td style="font-weight: bold; text-align:center" width="5px">N°</td>
+                    <td style="font-weight:bold; text-align:center">Date n°ordre</td>
+                    <td style="font-weight: bold; text-align: center">N° Pièce</td>
+                    <td style="font-weight: bold; text-align: center">Compte</td>
+                    <td style="font-weight: bold; text-align: center">Libellé</td>
+                    <td style="font-weight: bold; text-align: center">Débit</td>
+                    <td style="font-weight: bold; text-align: center">Crédit</td>
+                    <td style="font-weight: bold; text-align: center">Montant</td>
+                    <td style="font-weight: bold; text-align: center">Montant devise</td>
+                    <td style="font-weight: bold; text-align: center">Mon.</td>
+                    <td style="font-weight: bold; text-align: center">Rang</td>
+                    <td style="font-weight: bold; text-align: center">Financement catégorie</td>
+                    <td style="font-weight: bold; text-align: center">Commune</td>
+                    <td style="font-weight: bold; text-align: center">Plan6</td>
+                    <td style="font-weight: bold; text-align: center">Journal</td>
+                    <td style="font-weight: bold; text-align: center">Marché</td>
+                </tr>
+            </thead>
+            <tbody class="anomalieslist">
+            </tbody>
+
+        </table>
+    </div>
+
+    <div class="form-row mb-3">
+        <div class="input-group mb-3 col-md-10">
+        </div>
+        <div class="mb-3 col col-sm-12 col-md-4">
+            <div class="btn btn-flat bg-gradient-yellow col-12" onclick="tableToExcel('TDB_ANO', 'LISTE PAIEMENTS VALIDES')">
+                <i class="fa fa-file-excel"></i> Exporter
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/Assets/js/utils.js?version=@Session["VERSION"]"></script>
+<script src="~/Assets/js/FValidations.js?version=@Session["VERSION"]"></script>
+
+<script src="~/Assets/admlte/plugins/select2/js/select2.js"></script>
+<script src="~/Assets/admlte/plugins/select2/js/select2.min.js"></script>

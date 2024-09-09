@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewBag.Title = "Mappage User";
+    ViewData["Controller"] = "Droit des Utilisateurs";
+}
+
+
+<div class="d-flex flex-wrap justify-content-between">
+    <div class="btn bg-gradient-olive mb-3 btn-flat">
+        <a href="../Admin/AdminMaPUserCreate" style="color:#FFFF">
+            <i class="fa fa-plus-circle"></i> Nouvelle Mappage
+        </a>
+</div>
+    <div class="input-group mb-3 col-sm-5">
+        <div class="input-group-prepend custom-label">
+            <span class="input-group-text text-bold" id="basic-addon3"><i class="fa fa-search"></i></span>
+        </div>
+        <input type="text" class="form-control col" id="ticket" placeholder="Rechercher...">
+    </div>
+</div>
+
+<div class="table-responsive">
+    <table class="table table-hover table-striped">
+        <thead class="thead-green">
+            <tr>
+                <th>Société</th>
+                <th>Utilisateur</th>
+                <th>Instance</th>
+                <th>Base de données</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody data-id="ubody"></tbody>
+    </table>
+</div>
+
+<!-- Droit.js -->
+<script src="~/Assets/js/Droit.js?version=@Session["VERSION"]"></script>

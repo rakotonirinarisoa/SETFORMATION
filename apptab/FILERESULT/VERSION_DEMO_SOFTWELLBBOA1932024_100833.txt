@@ -1,0 +1,12 @@
+0302                     19034SOFTWELLVersiondémoSOFTW000009                          0720023172790005                                               00009      
+0602              jrnl00000025RAKOTOARISON Fanomezants                                20887           0000000025000000AV0006AV000                    05001      
+0702              jrnl00000025RAKOTOARISON Fanomezants                                20887           00000000000000006                              05001      
+0602              jrnl00000026RAKOTOARISON Fanomezants                                20887           00000005450000000002Prestat                    05001      
+0702              jrnl00000026RAKOTOARISON Fanomezants                                20887           0000000000000000ion de serv                    05001      
+0602              jrnl00000027S.M.O.I ABC Construction                                10000           0000000001000000BRTESTBRTES                    18921      
+0702              jrnl00000027S.M.O.I ABC Construction                                10000           0000000000000000T                              18921      
+0602              jrnl00000028RAKOTOARISON Fanomezants                                20887           00000005450000000002Prestat                    05001      
+0702              jrnl00000028RAKOTOARISON Fanomezants                                20887           0000000000000000ion de serv                    05001      
+0602              jrnl00000029S.M.O.I ABC Construction                                10000           0000000001000000BRTESTBRTES                    18921      
+0702              jrnl00000029S.M.O.I ABC Construction                                10000           0000000000000000T                              18921      
+0802                                                                                                  0000001117000000                                          

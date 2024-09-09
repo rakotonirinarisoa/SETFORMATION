@@ -1,0 +1,4 @@
+0302                     03113                        000171                          0500015818780024                                                          
+0602              jrnl00001068BESIRY_MARTINO                                                          0000000070000000Salaire du mois 0342                      
+0602              jrnl00001069MYRINA_WAED_SOAVOLA                                                     0000000175000000Salaire du mois 0332                      
+0802                                                                                                  0000000245000000                                          

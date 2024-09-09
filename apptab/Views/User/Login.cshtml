@@ -1,0 +1,97 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="fr-fr" style="overflow: hidden;">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SOFTWELL | SOFT - SIIG CONNECT</title>
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="~/Assets/admlte/plugins/fontawesome-free/css/all.min.css">
+    <!-- icheck bootstrap -->
+    <link rel="stylesheet" href="~/Assets/admlte/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="~/Assets/admlte/dist/css/adminlte.min.css">
+    <link href="~/Assets/css/style.css" rel="stylesheet" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Assets/css/loader.css" asp-append-version="true" />
+</head>
+
+<body class="hold-transition login-page" scroll="no" style="overflow: hidden">
+    <div id="loader" class="lds-dual-ring display-none overlay"></div>
+    <div class="auth-login">
+        <div class="login-box">
+            <!-- /.login-logo -->
+            <div>
+                <div class="card-header text-center">
+                    <img src="~/Assets/img/logo-soft.png" />
+                    <p class="login-box-msg font-weight-bold" style="color: #3d9970">
+                        SOFT - SIIG CONNECT
+                    </p>
+                </div>
+                <div class="card-body">
+                    <p class="login-box-msg">LOGIN</p>
+
+                    <form method="post">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Nom d'utilisateur" id="login_user">
+                            <div class="input-group-append">
+                                <div class="input-group-text bg-gradient-secondary">
+                                    <span class="fas fa-user"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-group mb-3">
+                            <input type="password" class="form-control" placeholder="Mot de passe" id="login_mdp">
+                            <div class="input-group-append">
+                                <div class="input-group-text bg-gradient-secondary">
+                                    <span class="fas fa-lock"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!-- /.col -->
+                            <div class="col-12">
+                                <div class="button type--B" style="cursor: pointer;" @*id="btnCon"*@ login_connect>
+                                    <div class="button__line"></div>
+                                    <div class="button__line"></div>
+                                    <span class="button__text">Se connecter</span>
+                                    <div class="button__drow1"></div>
+                                    <div class="button__drow2"></div>
+                                </div>
+                            </div>
+                            <!-- /.col -->
+                        </div>
+                    </form>
+                    <!-- /.social-auth-links -->
+
+                </div>
+                <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+        </div>
+        <!-- footer -->
+        <footer class="main-footerRFR">
+            <strong>Copyright &copy; 2024 <a href="https://www.softwell.mg">Softwell</a>.</strong>
+            All rights reserved.
+        </footer>
+        <!-- /.login-box -->
+        <!-- jQuery -->
+    </div>
+
+    <script src="~/Assets/admlte/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="~/Assets/admlte/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="~/Assets/admlte/dist/js/adminlte.min.js"></script>
+
+    <!-- Login.js -->
+    <script src="~/Assets/js/Login.js" asp-append-version="true"></script>
+</body>
+</html>
+
+

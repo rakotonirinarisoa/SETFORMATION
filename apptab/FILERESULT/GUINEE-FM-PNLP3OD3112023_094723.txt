@@ -1,0 +1,4 @@
+0302                     03113MAJUNGA                 000168                          0001838810680001                                               00005      
+0602              jrnl00001064BESIRY_MARTINO                                                          0000000070000000Salaire du mois 0343                      
+0602              jrnl00001065MAHAZAKA_IRENE_EVY_FLOREBNI                             00018388106800010000000000000000Salaire du mois 0953           00005      
+0802                                                                                                  0000000070000000                                          

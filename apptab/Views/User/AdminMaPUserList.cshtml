@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "Mappage User";
+    ViewData["Controller"] = "Mappage Utilisateur";
+}
+
+
+<div class="d-flex flex-wrap justify-content-between">
+    <div class="btn bg-gradient-olive mb-3 btn-flat">
+        <i class="fa fa-user-edit"></i> Nouvelle Mappage
+    </div>
+    <div class="input-group mb-3 col-sm-5">
+        <div class="input-group-prepend custom-label">
+            <span class="input-group-text text-bold" id="basic-addon3"><i class="fa fa-search"></i></span>
+        </div>
+        <input type="text" class="form-control col" id="ticket" placeholder="Rechercher...">
+    </div>
+</div>
+
+<div class="table-responsive">
+    <table class="table table-hover table-striped">
+        <thead class="thead-green">
+            <tr>
+                <th>Utilisateur</th>
+                <th>Instance</th>
+                <th>Base de données</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody ticket-list>
+            @for (int i = 0; i < 5; i++)
+            {
+                <tr class="text-nowrap last-hover">
+                    <td>Ra Jean Mikajy</td>
+                    <td>127.0.0.1\SQLSERVER2012</td>
+                    <td>BASE_TOMATE @i</td>
+                    <td class="elerfr">
+                        <i class="fa fa-pen-alt text-warning"></i>
+                    </td>
+                    <td class="elerfr">
+                        <i class="fa fa-trash text-danger"></i>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

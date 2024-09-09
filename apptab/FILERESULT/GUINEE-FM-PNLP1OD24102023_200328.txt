@@ -1,0 +1,4 @@
+0302                     24103                        000150                                                                                                    
+0602              jrnl00000954RADO_RAKOTOARINALA      BOA                             01000236435700090000000000092647Salaire du mois 0021           00009      
+0602              jrnl00000955ABOUDOU_ALY_RAMASILAHY  BOA                                             0000000130000000Salaire du mois 0201                      
+0802                                                                                                  0000000130092647                                          

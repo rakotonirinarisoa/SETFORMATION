@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "SOA";
+    ViewData["Controller"] = "Liste des SOA";
+}
+
+<div class="d-flex flex-wrap justify-content-between">
+    <div class="btn bg-gradient-olive mb-3 btn-flat">
+        <a href="../SuperAdmin/SuperAdminSOA" style="color:#FFFF"><i class="fa fa-plus-circle"></i> Nouveau SOA </a>
+    </div>
+</div>
+
+<div class="table-responsive tbodyDiv">
+    <table class="table table-hover table-striped" id="idTable">
+        <thead class="thead-green">
+            <tr>
+                <th>SOA</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody data-id="ubody"></tbody>
+    </table>
+</div>
+
+<!-- USer.js -->
+<script src="~/Assets/js/SOA.js?version=@Session["VERSION"]" ></script>
+
+

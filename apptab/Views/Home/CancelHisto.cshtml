@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewBag.Title = "Historiques de réglement";
+    ViewData["Controller"] = "Anullation de réglement";
+}
+
+
+<div class="d-flex flex-wrap justify-content-between">
+    <div></div>
+    <div class="input-group mb-3 col-sm-5">
+        <div class="input-group-prepend custom-label">
+            <span class="input-group-text text-bold" id="basic-addon3"><i class="fa fa-search"></i></span>
+        </div>
+        <input type="text" class="form-control col" id="ticket" placeholder="Rechercher...">
+    </div>
+</div>
+
+<div class="table-responsive">
+    <table class="table table-hover table-striped">
+        <thead class="thead-green">
+            <tr>
+                <th></th>
+                <th>Date règlement</th>
+                <th>N°</th>
+                <th>Date n° ordre</th>
+                <th>N° pièce</th>
+                <th>Journal</th>
+                <th>Compte G</th>
+                <th>Libellé</th>
+                <th>Montant Ar</th>
+                <th>Montant devise</th>
+                <th>RIB</th>
+                <th>Utilisateur</th>
+            </tr>
+        </thead>
+        <tbody ticket-list id="CancelReg">
+            
+        </tbody>
+    </table>
+</div>
+<div class="form-row mb-3">
+    <div class="input-group mb-3 col-md-9">
+    </div>
+    <div class="mb-3 col col-sm-12 col-md-3">
+        <div class="btn btn-flat bg-gradient-danger col-12" data-action="GetElementChecked">
+            <i class="fa fa-ban"></i> Cancel
+        </div>
+    </div>
+</div>
+<script src="~/Assets/js/Historiques.js?version=@Session["VERSION"]" ></script>

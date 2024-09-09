@@ -1,0 +1,7 @@
+0302                     30103Antsakaviro             000162                          0500015818780024                                               00009      
+0602              jrnl00000990TSIALIVA_THIERRY        BOA                             05000158187800240000000000000000Salaire du mois 0101           00009      
+0602              jrnl00000991MOUSSA_ABDOUL           BOA                             05000158187800240000000000000000Salaire du mois 0111           00009      
+0602              jrnl00000992MOUSSA_ABDOUL           BOA                             05000158187800240000000000000000Salaire du mois 0111           00009      
+0602              jrnl00000993TSIALIVA_THIERRY        BOA                             05000158187800240000000000000000Salaire du mois 0101           00009      
+0602              jrnl00000994MOUSSA_ABDOUL           BOA                             05000158187800240000000000000000Salaire du mois 0111           00009      
+0802                                                                                                  0000000000000000                                          

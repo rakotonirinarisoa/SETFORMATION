@@ -1,0 +1,92 @@
+﻿
+@{
+    ViewBag.Title = "Liste des Privilèges";
+    ViewData["Controller"] = "Liste des Privilèges";
+}
+
+<div class="table-responsive tbodyDiv">
+    <table class="table table-hover table-striped" id="idTable">
+        <thead class="thead-green">
+            <tr>
+                <th>PROJET</th>
+                <th>Utilisateur</th>
+                <th>Rôle</th>
+                <th>Paramétrages des projets</th>
+                <th>Gestion des utilisateurs</th>
+                <th>Gestion des privilèges</th>
+                <th>Correspondance des états</th>
+                <th>Délais des traitements</th>
+                <th>Gestion des mails</th>
+                <th>Cryptages</th>
+                <th>FTP</th>
+                <th>@Session["MTNON"]</th>
+                <th>@Session["MT0"]</th>
+                <th>@Session["MT1"]</th>
+                <th>@Session["MT2"]</th>
+
+                <th>@Session["MD0"]</th>
+                <th>@Session["MD1"]</th>
+                <th>@Session["MD2"]</th>
+                <th>@Session["MD3"]</th>
+
+                <th>@Session["MP1"]</th>
+                <th>@Session["MP2"]</th>
+                <th>@Session["MP3"]</th>
+                <th>@Session["MP4"]</th>
+
+                <th>@Session["MOP0"]</th>
+                <th>@Session["MOP1"]</th>
+                <th>@Session["MOP2"]</th>
+
+                <th>@Session["TDB0"]</th>
+                <th>@Session["TDB1"]</th>
+                <th>@Session["TDB2"]</th>
+                <th>@Session["TDB3"]</th>
+                <th>@Session["TDB4"]</th>
+                <th>@Session["TDB5"]</th>
+                <th>@Session["TDB6"]</th>
+                <th>@Session["TDB7"]</th>
+                <th>@Session["TDB8"]</th>
+
+                <th>GED</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody data-id="ubody">
+            <tr>
+                @*<td>PROJET1</td>
+                <td>RINAH</td>
+                <td text-align:center>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" id="none" name="drone" value="none" checked/><label class="ml-1" for="none" style="font-weight:normal">None</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" id="read" name="drone" value="read"/><label class="ml-1" for="read" style="font-weight:normal">Read</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" id="write" name="drone" value="write"/><label class="ml-1" for="write" style="font-weight:normal">All</label>
+                    </div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="elerfr"><div><i class="fa fa-save fa-lg text-danger"></i></div></td>*@
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<script defer src="~/Assets/js/Privilege.js?version=@Session["VERSION"]" ></script>

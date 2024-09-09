@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title = "Base de données TOMATE";
+    ViewData["Controller"] = "Paramétrage base de données TOMATE";
+    /*Layout = "~/Views/Shared/_Layout.cshtml";*/
+}
+
+<div class="form-row">
+    <div class="input-group mb-3 col">
+        <div class="input-group-prepend custom-label">
+            <span class="input-group-text text-bold" id="inputGroup-sizing-default">Instance</span>
+        </div>
+        <select class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id="Instance">
+            <option value="value"></option>
+        </select>
+    </div>
+</div>
+<div class="form-row">
+    <div class="input-group mb-3 col">
+        <div class="input-group-prepend custom-label">
+            <span class="input-group-text text-bold" id="inputGroup-sizing-default">Base de données</span>
+        </div>
+        <select class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id="DataBase">
+            <option value="value"></option>
+        </select>
+    </div>
+</div>
+<div class="btn-group btn-group-toggle mb-3 d-flex flex-wrap" data-toggle="buttons" style="width:100%">
+    <label class="btn btn-outline-info active">
+        <input type="radio" name="options" id="option1" autocomplete="off" checked data-id="1"> PAIE
+    </label>
+    <label class="btn btn-outline-warning">
+        <input type="radio" name="options" id="option2" autocomplete="off" data-id="2"> COMPTA
+    </label>
+    <label class="btn btn-outline-danger">
+        <input type="radio" name="options" id="option3" autocomplete="off" data-id="3"> BR
+    </label>
+</div>
+
+<div class="form-row">
+    <div class="mb-3 col">
+        <div class="btn btn-flat bg-gradient-olive col-12" id="save">
+            <i class="fa fa-save"></i> Enregistrer
+        </div>
+    </div>
+</div>
+
+<script src="~/Assets/js/bddTom.js?version=@Session["VERSION"]"></script>
+

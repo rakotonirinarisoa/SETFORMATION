@@ -1,0 +1,20 @@
+0302                     19034SOFTWELLVersiondémoSOFTW000012                          0720023172790005                                               00009      
+0602              jrnl00000045RAKOTOARISON Fanomezants                                20887           0000000200000000OP LIQ0006R                    05001      
+0702              jrnl00000045RAKOTOARISON Fanomezants                                20887           0000000000000000émunération                    05001      
+0602              jrnl00000046S.M.O.I ABC Construction                                10000           0000000010000000OP0001test2                    18921      
+0702              jrnl00000046S.M.O.I ABC Construction                                10000           0000000000000000                               18921      
+0602              jrnl00000047AEQUO.MG SARL                                           68000           0000000015000000OPTESTPaiem                    22227      
+0702              jrnl00000047AEQUO.MG SARL                                           68000           0000000000000000ent Eau et                     22227      
+0602              jrnl00000048RAKOTOARISON Fanomezants                                20887           0000000200000000OP LIQ0006R                    05001      
+0702              jrnl00000048RAKOTOARISON Fanomezants                                20887           0000000000000000émunération                    05001      
+0602              jrnl00000049S.M.O.I ABC Construction                                10000           0000000010000000OP0001test2                    18921      
+0702              jrnl00000049S.M.O.I ABC Construction                                10000           0000000000000000                               18921      
+0602              jrnl00000050AEQUO.MG SARL                                           68000           0000000015000000OPTESTPaiem                    22227      
+0702              jrnl00000050AEQUO.MG SARL                                           68000           0000000000000000ent Eau et                     22227      
+0602              jrnl00000051RAKOTOARISON Fanomezants                                20887           0000000200000000OP LIQ0006R                    05001      
+0702              jrnl00000051RAKOTOARISON Fanomezants                                20887           0000000000000000émunération                    05001      
+0602              jrnl00000052S.M.O.I ABC Construction                                10000           0000000010000000OP0001test2                    18921      
+0702              jrnl00000052S.M.O.I ABC Construction                                10000           0000000000000000                               18921      
+0602              jrnl00000053AEQUO.MG SARL                                           68000           0000000015000000OPTESTPaiem                    22227      
+0702              jrnl00000053AEQUO.MG SARL                                           68000           0000000000000000ent Eau et                     22227      
+0802                                                                                                  0000000000000000                                          

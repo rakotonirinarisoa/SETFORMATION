@@ -1,0 +1,6 @@
+0302                     14034SOFTWELLVersiondémoSOFTW000001                          0720023172790005                                               00009      
+0602              jrnl00000001RAKOTOARISON Fanomezants                                20887           0000000025000000AV0006AV000                    05001      
+0702              jrnl00000001RAKOTOARISON Fanomezants                                20887           00000000000000006                              05001      
+0602              jrnl00000002RAKOTOARISON Fanomezants                                20887           0000000200000000OP LIQ0006R                    05001      
+0702              jrnl00000002RAKOTOARISON Fanomezants                                20887           0000000000000000émunération                    05001      
+0802                                                                                                  0000000225000000                                          

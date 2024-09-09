@@ -1,0 +1,20 @@
+0302                     25034SOFTWELLVersiondémoSOFTW000008                          0000505004011926                                               00008      
+0602              jrnl00000064CLINIC INFO             BOA                             05025186120400050000001459999000002Achat de                    00009      
+0702              jrnl00000064CLINIC INFO             BOA                             05025186120400050000000000000000 02 laptops                    00009      
+0602              jrnl00000065RAHAINGONJATOVO Nirina                                  20887           0000004500000000OP001Honora                    05001      
+0702              jrnl00000065RAHAINGONJATOVO Nirina                                  20887           0000000000000000ires Févrie                    05001      
+0602              jrnl00000066METAPLASCO              SGM                             01436           0000001000000000OP002Achat                     21010      
+0702              jrnl00000066METAPLASCO              SGM                             01436           0000000000000000de 250 pann                    21010      
+0602              jrnl00000067CLINIC INFO             BOA                             05025186120400050000001459999000002Achat de                    00009      
+0702              jrnl00000067CLINIC INFO             BOA                             05025186120400050000000000000000 02 laptops                    00009      
+0602              jrnl00000068RAHAINGONJATOVO Nirina                                  20887           0000004500000000OP001Honora                    05001      
+0702              jrnl00000068RAHAINGONJATOVO Nirina                                  20887           0000000000000000ires Févrie                    05001      
+0602              jrnl00000069METAPLASCO              SGM                             01436           0000001000000000OP002Achat                     21010      
+0702              jrnl00000069METAPLASCO              SGM                             01436           0000000000000000de 250 pann                    21010      
+0602              jrnl00000070CLINIC INFO             BOA                             05025186120400050000001459999000002Achat de                    00009      
+0702              jrnl00000070CLINIC INFO             BOA                             05025186120400050000000000000000 02 laptops                    00009      
+0602              jrnl00000071RAHAINGONJATOVO Nirina                                  20887           0000004500000000OP001Honora                    05001      
+0702              jrnl00000071RAHAINGONJATOVO Nirina                                  20887           0000000000000000ires Févrie                    05001      
+0602              jrnl00000072METAPLASCO              SGM                             01436           0000001000000000OP002Achat                     21010      
+0702              jrnl00000072METAPLASCO              SGM                             01436           0000000000000000de 250 pann                    21010      
+0802                                                                                                  0000020879997000                                          

@@ -1,0 +1,22 @@
+0302                     07034SOFTWELLVersiondémoSOFTW000001                               1234567890                                                           
+0602              ZOD 00000001Consultant en Base De Do                                30008           0000000270000000XXXX                           13560      
+0702              ZOD 00000001Consultant en Base De Do                                30008           0000000000000000                               13560      
+0602              ZOD 00000002CONSLTANT JUNIOR EN APPU                                30008           0000000100000000XXXX                           13560      
+0702              ZOD 00000002CONSLTANT JUNIOR EN APPU                                30008           0000000000000000                               13560      
+0602              ZOD 00000003Consultant en Base De Do                                30008           0000000270000000XXXX                           13560      
+0702              ZOD 00000003Consultant en Base De Do                                30008           0000000000000000                               13560      
+0602              ZOD 00000004CONSLTANT JUNIOR EN APPU                                30008           0000000100000000XXXX                           13560      
+0702              ZOD 00000004CONSLTANT JUNIOR EN APPU                                30008           0000000000000000                               13560      
+0602              ZOD 00000005CONSLTANT JUNIOR EN APPU                                30008           0000000100000000XXXX                           13560      
+0702              ZOD 00000005CONSLTANT JUNIOR EN APPU                                30008           0000000000000000                               13560      
+0602              ZOD 00000006CONSULTANTE JUNIOR COMPT                                30008           0000000100000000XXXX                           13560      
+0702              ZOD 00000006CONSULTANTE JUNIOR COMPT                                30008           0000000000000000                               13560      
+0602              ZOD 00000007GALANA DISTRIBUTION PETR                                30008           0000000055000000XXXX                           13560      
+0702              ZOD 00000007GALANA DISTRIBUTION PETR                                30008           0000000000000000                               13560      
+0602              ZOD 00000008GALANA DISTRIBUTION PETR                                30008           0000000055000000XXXX                           13560      
+0702              ZOD 00000008GALANA DISTRIBUTION PETR                                30008           0000000000000000                               13560      
+0602              ZOD 00000009CONSLTANT JUNIOR EN APPU                                30008           0000000100000000XXXX                           13560      
+0702              ZOD 00000009CONSLTANT JUNIOR EN APPU                                30008           0000000000000000                               13560      
+0602              ZOD 00000010CONSULTANTE JUNIOR COMPT                                30008           0000000100000000XXXX                           13560      
+0702              ZOD 00000010CONSULTANTE JUNIOR COMPT                                30008           0000000000000000                               13560      
+0802                                                                                                  0000001250000000                                          

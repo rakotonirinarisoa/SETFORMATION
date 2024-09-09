@@ -1,0 +1,4 @@
+0302                     24103                        000152                          0180020256140014                                               00009      
+0602              jrnl00000961VONLSON_ANDRIARIMANJATO_                                                0000000530500000Salaire du mois 0078                      
+0602              jrnl00000962ABOUDOU_ALY_RAMASILAHY  BOA                                             0000000130000000Salaire du mois 0208                      
+0802                                                                                                  0000000660500000                                          

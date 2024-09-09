@@ -1,0 +1,6 @@
+0302                     18103MAJUNGA                 000001                          0001838810680001                                               00005      
+0602              jrnl00000001RAZAFY Soafara Irène    PIC                             06010189329200060000000550000000Salaire du                     BOA        
+0702              jrnl00000001RAZAFY Soafara Irène    PIC                             06010189329200060000000000000000mois 0128                      BOA        
+0602              jrnl00000002MAHAZAKA Irène Evy FlorePIC                             00018388106800010000000188000000Salaire du                     BNI        
+0702              jrnl00000002MAHAZAKA Irène Evy FlorePIC                             00018388106800010000000000000000mois 0958                      BNI        
+0802                                                                                                  0000000738000000                                          

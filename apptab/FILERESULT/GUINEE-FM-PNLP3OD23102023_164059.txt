@@ -1,0 +1,10 @@
+0302                     23103                        000142                          0180020256140014                                               00009      
+0602              jrnl00000939RADO_RAKOTOARINALA      BOA                             01000236435700090000000000092647Salaire du mois 0028           00009      
+0602              jrnl00000940RAKOTOARIJAONA_FANILO_NABOA                             05005243911200060000000360000000Salaire du mois 0058           00009      
+0602              jrnl00000941RANAIVOHARIVONY_ONITSOA_BOA                             05000157683700080000000000000000Salaire du mois 0068           00009      
+0602              jrnl00000942VONLSON_ANDRIARIMANJATO_                                                0000000530500000Salaire du mois 0078                      
+0602              jrnl00000943TSIALIVA_THIERRY                                                        0000000000000000Salaire du mois 0108                      
+0602              jrnl00000944MOUSSA_ABDOUL                                                           0000000000000000Salaire du mois 0118                      
+0602              jrnl00000945RAZAFY_SOAFARA_IRENE    BOA                             06010189329200060000000550000000Salaire du mois 0128           00009      
+0602              jrnl00000946ABOUDOU_ALY_RAMASILAHY  BOA                                             0000000130000000Salaire du mois 0208                      
+0802                                                                                                  0000001570592647                                          

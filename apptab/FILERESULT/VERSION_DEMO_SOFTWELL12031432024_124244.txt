@@ -1,0 +1,10 @@
+0302                     14034SOFTWELLVersiondémoSOFTW000004                          0000774097130002                                               00005      
+0602              jrnl00000013HG MADAGASCAR           BOA MADAGASCAR                  14000           0000000015000000OP LIQ0005A                    21685      
+0702              jrnl00000013HG MADAGASCAR           BOA MADAGASCAR                  14000           0000000000000000CHAT LIQ000                    21685      
+0602              jrnl00000014ENTREPRISE MAMY         MCB MADAGASCAR                  04660           0000000008000000OP LIQ0006A                    00001      
+0702              jrnl00000014ENTREPRISE MAMY         MCB MADAGASCAR                  04660           0000000000000000CHAT LIQ000                    00001      
+0602              jrnl00000015HG MADAGASCAR           BOA MADAGASCAR                  14000           0000000015000000OP LIQ0005A                    21685      
+0702              jrnl00000015HG MADAGASCAR           BOA MADAGASCAR                  14000           0000000000000000CHAT LIQ000                    21685      
+0602              jrnl00000016ENTREPRISE MAMY         MCB MADAGASCAR                  04660           0000000008000000OP LIQ0006A                    00001      
+0702              jrnl00000016ENTREPRISE MAMY         MCB MADAGASCAR                  04660           0000000000000000CHAT LIQ000                    00001      
+0802                                                                                                  0000000046000000                                          

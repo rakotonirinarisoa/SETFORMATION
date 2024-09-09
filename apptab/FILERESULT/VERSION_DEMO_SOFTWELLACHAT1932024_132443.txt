@@ -1,0 +1,22 @@
+0302                     19034SOFTWELLVersiondémoSOFTW000011                          0720023172790005                                               00009      
+0602              jrnl00000035RAKOTOARISON Fanomezants                                20887           0000000025000000AV0006AV000                    05001      
+0702              jrnl00000035RAKOTOARISON Fanomezants                                20887           00000000000000006                              05001      
+0602              jrnl00000036RAKOTOARISON Fanomezants                                20887           00000005450000000002Prestat                    05001      
+0702              jrnl00000036RAKOTOARISON Fanomezants                                20887           0000000000000000ion de serv                    05001      
+0602              jrnl00000037S.M.O.I ABC Construction                                10000           0000000001000000BRTESTBRTES                    18921      
+0702              jrnl00000037S.M.O.I ABC Construction                                10000           0000000000000000T                              18921      
+0602              jrnl00000038S.M.O.I ABC Construction                                10000           0000000001000000BRTEST1BRTE                    18921      
+0702              jrnl00000038S.M.O.I ABC Construction                                10000           0000000000000000ST1                            18921      
+0602              jrnl00000039RAKOTOARISON Fanomezants                                20887           00000005450000000002Prestat                    05001      
+0702              jrnl00000039RAKOTOARISON Fanomezants                                20887           0000000000000000ion de serv                    05001      
+0602              jrnl00000040S.M.O.I ABC Construction                                10000           0000000001000000BRTESTBRTES                    18921      
+0702              jrnl00000040S.M.O.I ABC Construction                                10000           0000000000000000T                              18921      
+0602              jrnl00000041S.M.O.I ABC Construction                                10000           0000000001000000BRTEST1BRTE                    18921      
+0702              jrnl00000041S.M.O.I ABC Construction                                10000           0000000000000000ST1                            18921      
+0602              jrnl00000042RAKOTOARISON Fanomezants                                20887           00000005450000000002Prestat                    05001      
+0702              jrnl00000042RAKOTOARISON Fanomezants                                20887           0000000000000000ion de serv                    05001      
+0602              jrnl00000043S.M.O.I ABC Construction                                10000           0000000001000000BRTESTBRTES                    18921      
+0702              jrnl00000043S.M.O.I ABC Construction                                10000           0000000000000000T                              18921      
+0602              jrnl00000044S.M.O.I ABC Construction                                10000           0000000001000000BRTEST1BRTE                    18921      
+0702              jrnl00000044S.M.O.I ABC Construction                                10000           0000000000000000ST1                            18921      
+0802                                                                                                  0000000000000000                                          

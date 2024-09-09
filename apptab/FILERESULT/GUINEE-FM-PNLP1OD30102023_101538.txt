@@ -1,0 +1,5 @@
+0302                     30103                        000154                          0180020256140014                                               00009      
+0602              jrnl00000965RAJAONARISON_MICHEL_    BNI                             00002218942602000000000000033824Salaire du mois 0013           00005      
+0602              jrnl00000966RAZAFY_SOAFARA_IRENE    BOA                             06010189329200060000000550000000Salaire du mois 0123           00009      
+0602              jrnl00000967GISLAIN                 BOA                             01800202561400140000000030000000Salaire du mois 0243           00009      
+0802                                                                                                  0000000580033824                                          

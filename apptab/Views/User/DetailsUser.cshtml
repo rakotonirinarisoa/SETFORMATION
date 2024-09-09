@@ -1,0 +1,125 @@
+﻿
+@{
+    ViewBag.Title = "Détails utilisateur";
+    ViewData["Controller"] = "Détails utilisateur";
+    /*Layout = "~/Views/Shared/_Layout.cshtml";*/
+}
+
+
+<div class="form-row">
+    <div class="input-group mb-3 col">
+        <div class="input-group-prepend custom-label">
+            <span class="input-group-text text-bold" id="inputGroup-sizing-default">Login</span>
+        </div>
+        <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id="Login">
+    </div>
+</div>
+<div class="form-row">
+    <div class="input-group mb-3 col">
+        <div class="input-group-prepend custom-label">
+            <span class="input-group-text text-bold" id="inputGroup-sizing-default">Rôle</span>
+        </div>
+        <select class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id="Role" data-id="User-role-list">
+            @*<option value="value"></option>*@
+        </select>
+    </div>
+</div>
+<div class="form-row">
+    <div class="input-group mb-3 col">
+        <div class="input-group-prepend custom-label">
+            <span class="input-group-text text-bold" id="inputGroup-sizing-default">Ancien mot de passe</span>
+        </div>
+        <input type="password" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id="old-password">
+        <i class="far fa-eye fa-lg" id="togglePassword" style="margin: 10px; cursor: pointer;"></i>
+    </div>
+</div>
+<div class="form-row">
+    <div class="input-group mb-3 col">
+        <div class="input-group-prepend custom-label">
+            <span class="input-group-text text-bold" id="inputGroup-sizing-default">Nouveau mot de passe</span>
+        </div>
+        <input type="password" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id="MDP">
+        <i class="far fa-eye fa-lg" id="togglePasswordN" style="margin: 10px; cursor: pointer;"></i>
+    </div>
+</div>
+<div class="form-row">
+    <div class="input-group mb-3 col">
+        <div class="input-group-prepend custom-label">
+            <span class="input-group-text text-bold" id="inputGroup-sizing-default">Confirmer le nouveau mot de passe</span>
+        </div>
+        <input type="password" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id="MDPC">
+        <i class="far fa-eye fa-lg" id="togglePasswordC" style="margin: 10px; cursor: pointer;"></i>
+    </div>
+</div>
+
+<div class="form-row" hidden="@((Session["userSession"] as apptab.SI_USERS).ROLE != apptab.Role.SAdministrateur)">
+    <div class="input-group mb-3 col">
+        <div class="input-group-prepend custom-label">
+            <span class="input-group-text text-bold" id="inputGroup-sizing-default">PROJET</span>
+        </div>
+        <select class="form-control selectTOO" aria-label="Default" aria-describedby="inputGroup-sizing-default" id="PROJET" data-id="proj-list" multiple="multiple">
+        </select>
+    </div>
+</div>
+
+<div class="form-row">
+    <div class="mb-3 col">
+        <div class="btn btn-flat bg-gradient-olive col-12" data-action="UpdateUser">
+            <i class="fa fa-save"></i> Enregistrer
+        </div>
+    </div>
+</div>
+
+<!-- USer.js -->
+<script src="~/Assets/js/RoleDetails.js?version=@Session["VERSION"]"></script>
+<script src="~/Assets/admlte/plugins/select2/js/select2.js"></script>
+<script src="~/Assets/admlte/plugins/select2/js/select2.min.js"></script>
+
+<script>
+    const togglePassword = document
+        .querySelector('#togglePassword');
+    const password = document.querySelector('#old-password');
+    togglePassword.addEventListener('click', () => {
+        // Toggle the type attribute using
+        // getAttribure() method
+        const type = password
+            .getAttribute('type') === 'password' ?
+            'text' : 'password';
+        password.setAttribute('type', type);
+        // Toggle the eye and bi-eye icon
+        this.classList.toggle('bi-eye');
+    });
+
+    const togglePasswordN = document
+        .querySelector('#togglePasswordN');
+    const passwordN = document.querySelector('#MDP');
+    togglePasswordN.addEventListener('click', () => {
+        // Toggle the type attribute using
+        // getAttribure() method
+        const typeN = passwordN
+            .getAttribute('type') === 'password' ?
+            'text' : 'password';
+        passwordN.setAttribute('type', typeN);
+        // Toggle the eye and bi-eye icon
+        this.classList.toggle('bi-eye');
+    });
+
+    const togglePasswordC = document
+        .querySelector('#togglePasswordC');
+    const passwordC = document.querySelector('#MDPC');
+    togglePasswordC.addEventListener('click', () => {
+        // Toggle the type attribute using
+        // getAttribure() method
+        const typeC = passwordC
+            .getAttribute('type') === 'password' ?
+            'text' : 'password';
+        passwordC.setAttribute('type', typeC);
+        // Toggle the eye and bi-eye icon
+        this.classList.toggle('bi-eye');
+    });
+
+    $("#PROJET").select2({
+        tags: true,
+        tokenSeparators: [',', ' ']
+    })
+</script>
